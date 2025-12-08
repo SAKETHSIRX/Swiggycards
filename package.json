@@ -1,0 +1,27 @@
+{
+  "name": "ndev",
+  "version": "1.0.0",
+  "description": "learing basics from nDev !!",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build":" parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAKETHSIRX/nDev.git"
+  },
+  "author": "saketh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAKETHSIRX/nDev/issues"
+  },
+  "homepage": "https://github.com/SAKETHSIRX/nDev#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  }
+}
