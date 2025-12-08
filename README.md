@@ -1,3 +1,10 @@
+This is build using React !!
+On the prrocess of procees of cteating the cmd of installation the cmd used mentioned below !!
+
+To use this project you first need to instaal parcel packeges and 
+then run
+/** npm run dev **/ for server
+/** npm run build **/ for build server.
 
 /** installing git **/-------------------------------------------------------------------------------------------------------------------
 
