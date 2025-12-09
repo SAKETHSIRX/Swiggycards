@@ -2,10 +2,13 @@
   "name": "ndev",
   "version": "1.0.0",
   "description": "learing basics from nDev !!",
+  "homepage": "https://sakethsirx.github.io/Swiggy-food-cards-using-react",
   "scripts": {
     "dev": "parcel index.html",
-    "build":" parcel build index.html",
-    "test": "jest"
+    "build": "parcel build index.html",
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,8 +19,8 @@
   "bugs": {
     "url": "https://github.com/SAKETHSIRX/nDev/issues"
   },
-  "homepage": "https://github.com/SAKETHSIRX/nDev#readme",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.16.1"
   },
   "dependencies": {
